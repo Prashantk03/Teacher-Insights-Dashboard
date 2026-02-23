@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+📊 Teacher Insights Dashboard
 
-## Getting Started
+A modern, full-stack Teacher Insights Dashboard built with Next.js 16 (App Router), Prisma, and PostgreSQL.
 
-First, run the development server:
+This platform provides school administrators with structured insights into teacher activities including:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Lessons created
+Quizzes conducted
+Assessments prepared
+Weekly performance tracking
+Subject & grade-level breakdowns
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🚀 Live Demo
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+🔗 Production URL:
+https://your-deployed-url.vercel.app
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+--Seed Admin credentials:
+Email: admin@savra.com
+Password: admin123
 
-## Learn More
+🧠 Features
+📌 Admin Dashboard
 
-To learn more about Next.js, take a look at the following resources:
+Overview of total teachers
+Total lessons, quizzes, and assessments
+Teacher performance summary
+Weekly activity visualization (Recharts)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+👩‍🏫 Teacher Detail Page
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Teacher activity breakdown
+Grade-level insights
+Subject-wise activity
+Weekly activity tracking
+Activity history table
 
-## Deploy on Vercel
+🔎 Smart Search
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Real-time teacher search
+Dropdown suggestions
+Direct navigation to teacher detail page
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📈 Reports Page
+
+Aggregated activity data
+Structured analytics view
+
+📱 Responsive UI
+
+Mobile-friendly sidebar
+Clean admin layout
+Modern dashboard design
+
+#Tech Stack used
+
+Next.js 14 (App Router)
+Tailwind CSS
+Recharts
+Next.js API Routes
+Prisma
+PostgreSQL
+Git + GitHub
+Vercel
+
+📌 Best Practices Followed
+
+Environment variables excluded via .gitignore
+API response shaping (DB schema ≠ API contract)
+Clean component separation
+Responsive layout design
+Production-ready deployment setup
+
+👨‍💻 Author
+
+Prashant Kumar
+Full-Stack Developer
+Built as part of Savra Technologies Assignment
+
+⭐ Final Notes
+
+This project demonstrates:
+Full-stack Next.js development
+Prisma ORM usage
+Database design
+Dashboard UI/UX implementation
+Production deployment
+Environment configuration handling
